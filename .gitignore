@@ -95,3 +95,7 @@ vue3/src/plugins
 docs/reference/
 .idea/vcs.xml
 .idea/db-forest-config.xml
+
+# Claude Code — personal files
+.claude/settings.local.json
+.claude/local.md

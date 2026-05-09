@@ -1,0 +1,15 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Frontend
+vue3/node_modules/
+cookbook/static/vue3/
+cookbook/static/vue/
+
+# Build / coverage
+staticfiles/
+mediafiles/
+docs/reports/
