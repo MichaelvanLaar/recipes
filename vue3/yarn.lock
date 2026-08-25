@@ -3547,13 +3547,21 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-workbox-background-sync@7.4.0, workbox-background-sync@^7.4.0:
+workbox-background-sync@7.4.0:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-7.4.0.tgz#5fcf83162b540f799966fdd8df0858f91b787d77"
   integrity sha512-8CB9OxKAgKZKyNMwfGZ1XESx89GryWTfI+V5yEj8sHjFH8MFelUwYXEyldEK6M6oKMmn807GoJFUEA1sC4XS9w==
   dependencies:
     idb "^7.0.1"
     workbox-core "7.4.0"
+
+workbox-background-sync@^7.4.1:
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-background-sync/-/workbox-background-sync-7.4.1.tgz#2a7112bef7a734e665ca75d1d9ceb0a90c2c6357"
+  integrity sha512-HhT7KE8tOWDm02wRNshXUnUPofMlhenF2DBdUnDPOubhizzPeItkYTmAB6td1Z2cjYPa98vzEiPLEuzn5hN66g==
+  dependencies:
+    idb "^7.0.1"
+    workbox-core "7.4.1"
 
 workbox-broadcast-update@7.4.0:
   version "7.4.0"
@@ -3612,10 +3620,15 @@ workbox-cacheable-response@7.4.0:
   dependencies:
     workbox-core "7.4.0"
 
-workbox-core@7.4.0, workbox-core@^7.4.0:
+workbox-core@7.4.0:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-7.4.0.tgz#5cb59ae7655f2727423268fb1ba698f37809189d"
   integrity sha512-6BMfd8tYEnN4baG4emG9U0hdXM4gGuDU3ectXuVHnj71vwxTFI7WOpQJC4siTOlVtGqCUtj0ZQNsrvi6kZZTAQ==
+
+workbox-core@7.4.1, workbox-core@^7.4.0:
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-7.4.1.tgz#5a8811ba5d25a2049821a7b66f63ee9b204dc691"
+  integrity sha512-DT+vu46eh/2vRsSHTY4Xmc32Z1rr9PRlQUXr1Dx30ZuXRWwOsvZgGgcwxcasubQLQmbTNYZjv44LkBAQ4tT5tQ==
 
 workbox-expiration@7.4.0, workbox-expiration@^7.4.0:
   version "7.4.0"
