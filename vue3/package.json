@@ -48,5 +48,11 @@
     "workbox-routing": "^7.4.0",
     "workbox-strategies": "^7.4.0",
     "workbox-window": "^7.4.0"
+  },
+  "resolutions": {
+    "minimatch": "^10.2.3",
+    "brace-expansion": "^5.0.7",
+    "picomatch": "^4.0.4",
+    "serialize-javascript": "^7.0.5"
   }
 }
